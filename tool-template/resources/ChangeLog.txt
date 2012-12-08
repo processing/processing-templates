@@ -1,0 +1,20 @@
+2012-10-05  Elie Zananiri
+      * version 0.2.2
+      * updated default classpath on OS X
+      
+2012-02-16  Elie Zananiri
+      * version 0.2.1
+      * brought the project up to date with the library template v 0.4.2
+      
+2010-05-12  Andreas Schlegel
+      * adjusted the data folder README file with details of how to load content with a tool
+
+2010-05-07  Andreas Schlegel
+      * version 0.1.2
+      * build.xml: removing delete tag for bin folder, did cause issues with class referencing inside eclipse
+      * build.xml: for users using 0.1.1, comment out <delete dir="${project.bin}"/> inside target clean
+
+2010-05-01  Andreas Schlegel
+      * version 0.1.1
+      * processing tool template is based on processing-library-template 0.3.1
+      

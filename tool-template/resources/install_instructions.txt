@@ -1,0 +1,42 @@
+How to install tool ##tool.name##
+
+
+Install with the "Add Tool..." tool
+
+New for Processing 2.0: Add contributed tools by selecting "Add Tool..." 
+from the Tool menu. Not all available tools have been converted to show up in 
+this menu. If a tool isn't there, it will need to be installed manually by 
+following the instructions below.
+
+
+Manual Install
+
+Contributed tools must be downloaded separately and manually placed within the 
+"tools" folder of your Processing sketchbook. To find (and change) the 
+Processing sketchbook location on your computer, open the Preferences window 
+from the Processing application (PDE) and look for the "Sketchbook location" 
+item at the top. 
+
+Copy the contributed tool's folder into the "tools" folder at this location. 
+You will need to create the "tools" folder if this is your first contributed 
+tool. 
+
+By default the following locations are used for your sketchbook folder:
+ 
+  For Mac users, the sketchbook folder is located inside ~/Documents/Processing. 
+  For Windows users, the sketchbook folder is located inside 
+    'My Documents'/Processing.
+    
+The folder structure for tool ##tool.name## should be as follows:
+
+Processing
+  tools
+    ##tool.name##
+      examples
+      tool
+        ##tool.name##.jar
+      reference
+      src
+                      
+Some folders like "examples" or "src" might be missing. After tool ##tool.name##
+has been successfully installed, restart the Processing application.
