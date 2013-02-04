@@ -1,3 +1,10 @@
+2013-02-04	Martin Schneider
+      * version 0.2.3
+      * sepearated local system properties from project specific build properties
+      * local.properties.tmpl: template for configuring local paths of the build system
+      * .gitignore: hiding local.properties from revision control
+      * build.xml: updated the build-script to use both local.properties and build.properties
+
 2012-10-05  Elie Zananiri
       * version 0.2.2
       * updated default classpath on OS X
