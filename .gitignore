@@ -1,11 +1,11 @@
 distribution
-.DS_Store
+*.DS_Store
 *.swp
 *.iml
 *.ipr
 *.iws
-.classpath
-.project
-.settings/
-.springBeans/
-.metadata/
+*.classpath
+*.project
+*.settings/
+*.springBeans/
+*.metadata/
