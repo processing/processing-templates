@@ -143,6 +143,7 @@ ${line}
 				<path refid="classpath"/>
 			</classpath>
 			<compilerarg value="-Xlint"/>
+			<exclude name="development/**" />
 		</javac>
 		<copy todir="${project.bin.data}">
 			<fileset dir="${project.data}" excludes="README" />
@@ -225,6 +226,7 @@ ${line}
  			<fileset dir="${project.tmp}/${project.name}/src" defaultexcludes="yes">
 			<!-- add packages to be added to reference. -->
 				<include name="**/*"/>
+ 				<exclude name="development/**" />
 			</fileset>
 	 	</javadoc>
 	</target>
